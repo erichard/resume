@@ -1,0 +1,33 @@
+{
+  "basics": {
+    "name": "Erwan Richard",
+    "label": "Freelance",
+    "image": " https://popcorn-nantes.github.io/media/photos/erwan-richard.jpg",
+    "email": "freelance@erwan-richard.tech",
+    "phone": "06 47 26 65 89",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "dhalsimfr",
+        "url": "https://twitter.com/dhalsimfr"
+      },
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/erwan-richard"
+      },
+      {
+        "network": "Github",
+        "username": "erichard",
+        "url": "https://github.com/erichard"
+      }
+    ]
+  },
+}
