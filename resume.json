@@ -1,27 +1,27 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Erwan Richard",
-    "label": "Freelance",
-    "image": " https://popcorn-nantes.github.io/media/photos/erwan-richard.jpg",
+    "label": "Freelance - CTO, Mentorat, Développeur PHP/Symfony, Devops",
+    "image": "https://popcorn-nantes.github.io/media/photos/erwan-richard.jpg",
     "email": "freelance@erwan-richard.tech",
     "phone": "06 47 26 65 89",
-    "summary": "A summary of John Doe…",
+    "url": "",
+    "summary": "Développeur depuis plus de 10 ans, je propose mon expérience au service de vos projets. J'ai acquis une solide expertise dans les domaines du e-commerce, du PIM, des API, du SaaS, du captage de lead et dans toutes sortes de workflow métier.  J'ai beaucoup travaillé en PHP avec Symfony et avec PostgreSQL et ElasticSearch comme fournisseur de données. Côté front j'ai réalisé plusieurs projets avec VueJS. \n\nJ'ai également de bonnes compétences de devops sur Docker, Ansible, AWS, Gitlab, et plusieurs outils de gestion de la qualité pour les projets PHP. Je peux vous aider à augmenter la fréquence de vos déploiements et résoudre vos problèmes de performance. \n\nJ'ai encadré pendant plusieurs années une équipe de 15 développeurs et piloté plusieurs projets. Je peux vous aider à organiser une ou plusieurs équipes. Je crois beaucoup aux vertus des méthodes agiles et au software craftmanship. \n\nJ'ai été directeur technique d'une agence digitale de 30 personnes. Je peux vous accompagner dans la stratégie de mise en œuvre de votre produit ou service. Choix de technologies, conception POC et MVP, avant-vente technique, recrutement d'une équipe, n'hésitez pas à faire appel à mes compétences. ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "countryCode": "FR",
+      "address": "France"
     },
     "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "erwan-richard",
+        "url": "https://www.linkedin.com/in/erwan-richard/"
+      },
       {
         "network": "Twitter",
         "username": "dhalsimfr",
         "url": "https://twitter.com/dhalsimfr"
-      },
-      {
-        "network": "Linkedin",
-        "url": "https://www.linkedin.com/in/erwan-richard"
       },
       {
         "network": "Github",
@@ -30,4 +30,258 @@
       }
     ]
   },
+  "work": [
+    {
+      "name": "Sharemat",
+      "description": "Un outil collaboratif de gestion de parc intégrant votre réseau privé de location partage des matériels.",
+      "position": "Freelance",
+      "summary": "Accompagnement dev & devops",
+      "startDate": "2022-03-28",
+      "endDate": null,
+      "highlights": [
+        "Développement API Platform",
+        "Optimisation des coûts AWS",
+        "Installation Gitlab Runner autoscalé"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "Visiativ",
+      "position": "Freelance",
+      "description": "",
+      "summary": "Audit d'une plateforme no-code en vue d'un rachat",
+      "startDate": "2022-03-11",
+      "endDate": null,
+      "highlights": [
+        "Framework legacy Symfony 2.8"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "Band of Boats",
+      "description": "Site de mise en relation entre vendeurs et acheteurs de bateau d'occasion",
+      "position": "Freelance",
+      "summary": "Accompagnement dev & devops",
+      "startDate": "2021-08-09",
+      "endDate": null,
+      "highlights": [
+        "Audit de performance",
+        "Optimisation des coûts AWS",
+        "Développement d'un serveur d'image",
+        "Installation Gitlab Runner autoscalé"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "CETIH",
+      "description": "Industriel fabricant des portes d'entrées et des fenêtres.",
+      "position": "Freelance",
+      "summary": "Développement et intégration",
+      "startDate": "2020-11-24",
+      "endDate": null,
+      "highlights": [
+        "Cartographie d'une architecture cible pour les nombreux sites du groupe",
+        "Développement d'une API d'intéropérabilité en Symfony 5 permettant le transfert de lead entre les applications public et pro",
+        "Développement d'un serveur d'image",
+        "Installation et paramétrage du PIM Akeneo"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "Ecocert",
+      "description": "Leader de la certification biologique dans le monde.",
+      "position": "Freelance",
+      "summary": "Refactoring du formulaire de demande de devis",
+      "startDate": "2020-10-15",
+      "endDate": "2020-11-31",
+      "highlights": [
+        "Refactoring du formulaire en VueJS",
+        "Gestion multi-lingue",
+        "Formulaire complexe multi-étapes et très réactif",
+        "Optimisation du build webpack"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "L'A. L'agence culturelle de Nouvelle-Aquitaine",
+      "position": "Freelance",
+      "summary": "Développement de l'annuaire de l'offre culturelle de la region Nouvelle-Aquitaine",
+      "startDate": "2020-10-01",
+      "endDate": "2020-10-15",
+      "highlights": [
+        "Moteur de recherche en ElasticSearch",
+        "Symfony 5.x",
+        "VueJS 2.x"
+      ],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "Coopérative Seine Yonne",
+      "description": "Coopérative agricole en region Bourgogne",
+      "position": "Freelance",
+      "summary": "Création d'un dashboard de pilotage sur l'extranet métier à destination des agriculteurs de la coopérative. Ce dashboard utilise un moteur ElasticSearch pour fournir des filtres pertinents et afficher les résultats rapidement.",
+      "startDate": "2020-05-31",
+      "endDate": "2020-10-31",
+      "highlights": [],
+      "summary": null,
+      "url": "",
+      "location": "Remote"
+    },
+    {
+      "name": "Le Phare",
+      "position": "CTO",
+      "startDate": "2018-02-28",
+      "endDate": "2020-05-31",
+      "highlights": [
+        "Encadrement d'une équipe de 15 développeurs",
+        "Recrutement",
+        "Gestion de carrière des développeurs",
+        "Stratégie numérique de l'entreprise"
+      ],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/6988931",
+      "location": "Région de Nantes, France"
+    },
+    {
+      "name": "Le Phare",
+      "position": "Tech Lead",
+      "startDate": "2012-02-28",
+      "endDate": "2020-05-31",
+      "highlights": [
+        "Conception et développement en Symfony des briques génériques utilisées par l'agence",
+        "Optimisation des déploiements",
+        "Installation d'une plateforme d'intégration continue multi-projets avec Gitlab CI",
+        "Installation et Administration d'une instance Gitlab"
+      ],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/6988931",
+      "location": "Région de Nantes, France"
+    },
+    {
+      "name": "Le Phare",
+      "position": "Lead Développeur PHP/Symfony",
+      "summary": "Conception et Réalisation d'une dizaine de projet web dans différent secteur d'activité",
+      "startDate": "2012-02-28",
+      "endDate": "2020-05-31",
+      "highlights": [
+        "Développement Symfony 2 à 5",
+        "Base de donnée MySQL et PostgreSQL",
+        "Moteur de recherche ElasticSearch",
+        "Front VueJS"
+      ],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/6988931",
+      "location": "Région de Nantes, France"
+    },
+    {
+      "name": "Conservatoire National des Arts et Métiers",
+      "position": "Développeur PHP",
+      "summary": "Développement de la plateforme de formation à distance du Cnam",
+      "startDate": "2006-09-30",
+      "endDate": "2010-02-28",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/15091873",
+      "location": "Région de Nantes, France"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Conservatoire National des Arts et Métiers",
+      "area": "Informatique",
+      "studyType": "Concepteur-Architecte",
+      "startDate": "2006-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Nantes",
+      "area": "Informatique",
+      "studyType": "Licence",
+      "startDate": "2005-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "IUT de Nantes",
+      "area": "Informatique",
+      "studyType": "DUT",
+      "startDate": "2003-12-31",
+      "endDate": "2005-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Symfony",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "ElasticSearch",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Conception web",
+      "level": "Master",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
